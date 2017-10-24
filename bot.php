@@ -18,8 +18,11 @@ if (!is_null($events['events'])) {
 
 			// Build message to reply back
 			$messages = [
-				'type' => 'text',
-				'text' => $text
+				//'type' => 'text',
+				//'text' => $text
+				"type": "image",
+    				"originalContentUrl": "https://static.pexels.com/photos/67854/shark-fish-hammerhead-shark-aquarium-67854.jpeg",
+    				"previewImageUrl": "https://static.pexels.com/photos/67854/shark-fish-hammerhead-shark-aquarium-67854.jpeg"
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
