@@ -21,8 +21,8 @@ if (!is_null($events['events'])) {
 				//'type' => 'text',
 				//'text' => $text
 				"type": "image",
-    				"originalContentUrl": "http://www.mx7.com/view2/Ach6nJ8WFxgbrVHd",
-    				"previewImageUrl": "http://www.mx7.com/view2/Ach6nJ8WFxgbrVHd"
+    				"originalContentUrl": "https://www.mx7.com/i/087/eqNUMY.jpg",
+    				"previewImageUrl": "https://www.mx7.com/i/087/eqNUMY.jpg"
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
