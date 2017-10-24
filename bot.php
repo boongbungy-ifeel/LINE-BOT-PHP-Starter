@@ -18,11 +18,11 @@ if (!is_null($events['events'])) {
 
 			// Build message to reply back
 			$messages = [
-				//'type' => 'text',
-				//'text' => $text
-				"type": "image",
-    				"originalContentUrl": "https://www.mx7.com/i/087/eqNUMY.jpg",
-    				"previewImageUrl": "https://www.mx7.com/i/087/eqNUMY.jpg"
+				'type' => 'text',
+				'text' => $text
+				//"type": "image",
+    				//"originalContentUrl": "https://www.mx7.com/i/087/eqNUMY.jpg",
+    				//"previewImageUrl": "https://www.mx7.com/i/087/eqNUMY.jpg"
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
