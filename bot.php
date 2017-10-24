@@ -21,8 +21,8 @@ if (!is_null($events['events'])) {
 				//'type' => 'text',
 				//'text' => $text
 				"type": "image",
-    				"originalContentUrl": "https://static.pexels.com/photos/67854/shark-fish-hammerhead-shark-aquarium-67854.jpeg",
-    				"previewImageUrl": "https://static.pexels.com/photos/67854/shark-fish-hammerhead-shark-aquarium-67854.jpeg"
+    				"originalContentUrl": "https://www.dropbox.com/home/bbshabu?preview=pic399.jpg",
+    				"previewImageUrl": "https://www.dropbox.com/home/bbshabu?preview=pic399.jpg"
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
