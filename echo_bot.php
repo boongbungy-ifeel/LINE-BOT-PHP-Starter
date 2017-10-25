@@ -50,6 +50,16 @@ foreach ($client->parseEvents() as $event) {
                     ));
                     break; 
                 case 'image':
+                    $client->replyMessage(array(
+                        'replyToken' => $event['replyToken'],
+                        'messages' => array(
+                            array(
+                                'type' => 'text',
+                                'text' => 'image :'.$message['originalContentUrl']
+                            )
+                        )
+                    ));
+                    
                     break;
                 default:
                     
