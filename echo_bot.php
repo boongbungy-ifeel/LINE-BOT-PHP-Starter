@@ -38,17 +38,22 @@ foreach ($client->parseEvents() as $event) {
                         )
                     ));
                     break;
-                default:
-                    $client->replyMessage(array(
+                 case 'location'
+                     $client->replyMessage(array(
                         'replyToken' => $event['replyToken'],
                         'messages' => array(
                             array(
                                 'type' => 'text',
-                                'text' => 'new '.$message['type']
+                                'text' => 'new '.$message['location']
                             )
                         )
                     ));
-                    //error_log("Unsupporeted message type: " . $message['type']);
+                    break; 
+                  case 'image'
+                    break;
+                default:
+                    
+                    error_log("Unsupporeted message type: " . $message['type']);
                     break;
             }
             break;
