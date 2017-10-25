@@ -38,7 +38,7 @@ foreach ($client->parseEvents() as $event) {
                         )
                     ));
                     break;
-                 case 'location'
+                case 'location':
                      $client->replyMessage(array(
                         'replyToken' => $event['replyToken'],
                         'messages' => array(
@@ -49,7 +49,7 @@ foreach ($client->parseEvents() as $event) {
                         )
                     ));
                     break; 
-                  case 'image'
+                case 'image':
                     break;
                 default:
                     
