@@ -44,7 +44,7 @@ foreach ($client->parseEvents() as $event) {
                         'messages' => array(
                             array(
                                 'type' => 'text',
-                                'text' => 'new '.$message['location']
+                                'text' => 'latitude :'.$message['latitude'].', longitude: '.$message['longitude']
                             )
                         )
                     ));
